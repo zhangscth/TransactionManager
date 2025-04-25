@@ -1,0 +1,277 @@
+13:35:44.328 [main] INFO  c.z.t.MainApplication - Starting MainApplication using Java 21.0.1 with PID 25104 (D:\workspace\java\TransactionManager\target\classes started by zsc in D:\workspace\java\TransactionManager)
+13:35:44.333 [main] INFO  c.z.t.MainApplication - No active profile set, falling back to 1 default profile: "default"
+13:35:47.127 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+13:35:47.158 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:35:47.162 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:35:47.164 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+13:35:47.311 [main] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring embedded WebApplicationContext
+13:35:47.315 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2789 ms
+13:35:47.729 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:35:48.218 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/ymd user=SA
+13:35:48.224 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:35:49.337 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/ymd'
+13:35:49.447 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:35:49.497 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/transaction-manager'
+13:35:49.512 [main] INFO  c.z.t.MainApplication - Started MainApplication in 7.126 seconds (process running for 8.955)
+13:35:59.236 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:35:59.240 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:35:59.245 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+13:35:59.573 [http-nio-8080-exec-1] INFO  c.z.t.c.TransactionController - create transaction, id:bbccef2d-a678-46e6-ad91-e43a12e46d15
+13:51:50.318 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+13:51:50.392 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+13:51:50.416 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+13:51:50.427 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+13:52:02.557 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+13:52:02.653 [main] INFO  c.z.t.MainApplication - Starting MainApplication using Java 21.0.1 with PID 24316 (D:\workspace\java\TransactionManager\target\classes started by zsc in D:\workspace\java\TransactionManager)
+13:52:02.656 [main] INFO  c.z.t.MainApplication - No active profile set, falling back to 1 default profile: "default"
+13:52:05.035 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+13:52:05.064 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+13:52:05.068 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+13:52:05.068 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+13:52:05.225 [main] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring embedded WebApplicationContext
+13:52:05.226 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2476 ms
+13:52:05.916 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+13:52:06.438 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/ymd user=SA
+13:52:06.442 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+13:52:07.536 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/ymd'
+13:52:07.664 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+13:52:07.700 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/transaction-manager'
+13:52:07.717 [main] INFO  c.z.t.MainApplication - Started MainApplication in 6.302 seconds (process running for 8.047)
+13:52:23.886 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+13:52:23.886 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+13:52:23.890 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+14:45:06.764 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m30s199ms924µs400ns).
+14:52:33.597 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m56s700ms704µs900ns).
+14:53:54.519 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+14:53:54.776 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+14:53:54.891 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+14:53:54.947 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+14:54:08.254 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+14:54:08.448 [main] INFO  c.z.t.MainApplication - Starting MainApplication using Java 21.0.1 with PID 6200 (D:\workspace\java\TransactionManager\target\classes started by zsc in D:\workspace\java\TransactionManager)
+14:54:08.450 [main] INFO  c.z.t.MainApplication - No active profile set, falling back to 1 default profile: "default"
+14:54:10.590 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+14:54:10.644 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+14:54:10.650 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:54:10.650 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+14:54:10.814 [main] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring embedded WebApplicationContext
+14:54:10.816 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2248 ms
+14:54:11.484 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:54:12.158 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/ymd user=SA
+14:54:12.163 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:54:13.220 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/ymd'
+14:54:13.329 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+14:54:13.360 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/transaction-manager'
+14:54:13.376 [main] INFO  c.z.t.MainApplication - Started MainApplication in 6.255 seconds (process running for 7.603)
+14:57:51.443 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m9s179ms626µs100ns).
+15:01:17.708 [http-nio-8080-exec-18] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:01:17.712 [http-nio-8080-exec-18] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:01:17.736 [http-nio-8080-exec-18] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 24 ms
+15:36:31.628 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+15:36:31.712 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+15:36:31.782 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:36:31.814 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:36:39.269 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+15:36:39.369 [main] INFO  c.z.t.MainApplication - Starting MainApplication using Java 21.0.1 with PID 24440 (D:\workspace\java\TransactionManager\target\classes started by zsc in D:\workspace\java\TransactionManager)
+15:36:39.370 [main] INFO  c.z.t.MainApplication - No active profile set, falling back to 1 default profile: "default"
+15:36:41.315 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15:36:41.341 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:36:41.344 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:36:41.345 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+15:36:41.419 [main] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring embedded WebApplicationContext
+15:36:41.419 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1967 ms
+15:36:41.830 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:36:42.391 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/ymd user=SA
+15:36:42.396 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:36:43.223 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/ymd'
+15:36:43.335 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:36:43.364 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/transaction-manager'
+15:36:43.384 [main] INFO  c.z.t.MainApplication - Started MainApplication in 4.98 seconds (process running for 6.245)
+15:37:02.192 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:37:02.192 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:37:02.194 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+15:37:32.630 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+15:37:32.674 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+15:37:32.687 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:37:32.692 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:37:39.002 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+15:37:39.086 [main] INFO  c.z.t.MainApplication - Starting MainApplication using Java 21.0.1 with PID 15764 (D:\workspace\java\TransactionManager\target\classes started by zsc in D:\workspace\java\TransactionManager)
+15:37:39.088 [main] INFO  c.z.t.MainApplication - No active profile set, falling back to 1 default profile: "default"
+15:37:41.168 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15:37:41.191 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:37:41.193 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:37:41.194 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+15:37:41.267 [main] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring embedded WebApplicationContext
+15:37:41.268 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2104 ms
+15:37:41.695 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:37:42.457 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/ymd user=SA
+15:37:42.461 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:37:43.512 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/ymd'
+15:37:43.598 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:37:43.646 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/transaction-manager'
+15:37:43.663 [main] INFO  c.z.t.MainApplication - Started MainApplication in 5.552 seconds (process running for 6.605)
+15:37:52.609 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:37:52.610 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:37:52.613 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+15:38:09.138 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+15:38:09.182 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+15:38:09.202 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:38:09.215 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:38:15.285 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+15:38:15.377 [main] INFO  c.z.t.MainApplication - Starting MainApplication using Java 21.0.1 with PID 31212 (D:\workspace\java\TransactionManager\target\classes started by zsc in D:\workspace\java\TransactionManager)
+15:38:15.379 [main] INFO  c.z.t.MainApplication - No active profile set, falling back to 1 default profile: "default"
+15:38:17.704 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+15:38:17.733 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:38:17.736 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:38:17.737 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+15:38:17.824 [main] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring embedded WebApplicationContext
+15:38:17.825 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2353 ms
+15:38:18.158 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+15:38:18.627 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/ymd user=SA
+15:38:18.630 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+15:38:19.460 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/ymd'
+15:38:19.585 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:38:19.633 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/transaction-manager'
+15:38:19.648 [main] INFO  c.z.t.MainApplication - Started MainApplication in 5.064 seconds (process running for 6.201)
+15:38:21.085 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:38:21.086 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+15:38:21.088 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+16:36:04.816 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+16:36:04.861 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+16:36:04.891 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:36:04.906 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:36:11.267 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+16:36:11.333 [main] INFO  c.z.t.MainApplication - Starting MainApplication using Java 21.0.1 with PID 9880 (D:\workspace\java\TransactionManager\target\classes started by zsc in D:\workspace\java\TransactionManager)
+16:36:11.334 [main] INFO  c.z.t.MainApplication - No active profile set, falling back to 1 default profile: "default"
+16:36:12.500 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+16:36:12.518 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:36:12.520 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:36:12.521 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+16:36:12.573 [main] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring embedded WebApplicationContext
+16:36:12.574 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1192 ms
+16:36:12.770 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:36:13.082 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/ymd user=SA
+16:36:13.084 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:36:13.581 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/ymd'
+16:36:13.686 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:36:13.716 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/transaction-manager'
+16:36:13.727 [main] INFO  c.z.t.MainApplication - Started MainApplication in 3.072 seconds (process running for 3.769)
+16:46:52.013 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+16:46:52.065 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+16:46:52.105 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:46:52.128 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:47:02.064 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+16:47:02.157 [main] INFO  c.z.t.MainApplication - Starting MainApplication using Java 21.0.1 with PID 18260 (D:\workspace\java\TransactionManager\target\classes started by zsc in D:\workspace\java\TransactionManager)
+16:47:02.159 [main] INFO  c.z.t.MainApplication - No active profile set, falling back to 1 default profile: "default"
+16:47:03.879 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+16:47:03.901 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:47:03.903 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:47:03.903 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+16:47:03.982 [main] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring embedded WebApplicationContext
+16:47:03.983 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1716 ms
+16:47:04.341 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16:47:04.794 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/ymd user=SA
+16:47:04.797 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16:47:05.756 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/ymd'
+16:47:05.886 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:47:05.939 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/transaction-manager'
+16:47:05.956 [main] INFO  c.z.t.MainApplication - Started MainApplication in 4.862 seconds (process running for 6.052)
+16:47:36.826 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:47:36.826 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+16:47:36.828 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+16:47:42.690 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+16:47:42.720 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+16:47:42.742 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:47:42.747 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:21:43.827 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+17:21:43.936 [main] INFO  c.z.t.MainApplication - Starting MainApplication using Java 21.0.1 with PID 32776 (D:\workspace\java\TransactionManager\target\classes started by zsc in D:\workspace\java\TransactionManager)
+17:21:43.938 [main] INFO  c.z.t.MainApplication - No active profile set, falling back to 1 default profile: "default"
+17:21:46.887 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+17:21:46.926 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:21:46.930 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:21:46.930 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+17:21:47.069 [main] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring embedded WebApplicationContext
+17:21:47.070 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3029 ms
+17:21:47.571 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:21:48.086 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/ymd user=SA
+17:21:48.091 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:21:49.178 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/ymd'
+17:21:49.313 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:21:49.357 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/transaction-manager'
+17:21:49.373 [main] INFO  c.z.t.MainApplication - Started MainApplication in 6.739 seconds (process running for 8.556)
+17:21:56.335 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:21:56.337 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:21:56.339 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+17:23:50.932 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+17:23:50.952 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+17:23:50.958 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:23:50.960 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:24:00.281 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+17:24:00.396 [main] INFO  c.z.t.MainApplication - Starting MainApplication using Java 21.0.1 with PID 25476 (D:\workspace\java\TransactionManager\target\classes started by zsc in D:\workspace\java\TransactionManager)
+17:24:00.398 [main] INFO  c.z.t.MainApplication - No active profile set, falling back to 1 default profile: "default"
+17:24:02.790 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+17:24:02.819 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:24:02.822 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:24:02.822 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+17:24:02.920 [main] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring embedded WebApplicationContext
+17:24:02.921 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2413 ms
+17:24:03.246 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:24:03.972 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/ymd user=SA
+17:24:03.982 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:24:05.139 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/ymd'
+17:24:05.273 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:24:05.312 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/transaction-manager'
+17:24:05.326 [main] INFO  c.z.t.MainApplication - Started MainApplication in 6.195 seconds (process running for 7.737)
+17:24:12.756 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:24:12.758 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:24:12.759 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:24:42.089 [http-nio-8080-exec-3] ERROR c.z.t.service.TransactionService - Transaction not exist
+17:25:14.845 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+17:25:14.882 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+17:25:14.892 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:25:14.896 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:57:12.080 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+20:57:12.165 [main] INFO  c.z.t.MainApplication - Starting MainApplication using Java 21.0.1 with PID 5436 (D:\workspace\java\TransactionManager\target\classes started by zsc in D:\workspace\java\TransactionManager)
+20:57:12.166 [main] INFO  c.z.t.MainApplication - No active profile set, falling back to 1 default profile: "default"
+20:57:14.460 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+20:57:14.508 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:57:14.512 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:57:14.512 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+20:57:14.624 [main] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring embedded WebApplicationContext
+20:57:14.625 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2378 ms
+20:57:14.944 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:57:15.503 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/ymd user=SA
+20:57:15.508 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:57:16.403 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/ymd'
+20:57:16.521 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:57:16.562 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/transaction-manager'
+20:57:16.584 [main] INFO  c.z.t.MainApplication - Started MainApplication in 5.573 seconds (process running for 7.134)
+20:57:29.441 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:57:29.441 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:57:29.447 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+20:59:21.365 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+20:59:21.394 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+20:59:21.407 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:59:21.412 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:59:31.707 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+20:59:31.780 [main] INFO  c.z.t.MainApplication - Starting MainApplication using Java 21.0.1 with PID 32128 (D:\workspace\java\TransactionManager\target\classes started by zsc in D:\workspace\java\TransactionManager)
+20:59:31.781 [main] INFO  c.z.t.MainApplication - No active profile set, falling back to 1 default profile: "default"
+20:59:34.093 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+20:59:34.141 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:59:34.147 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+20:59:34.148 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+20:59:34.320 [main] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring embedded WebApplicationContext
+20:59:34.321 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2454 ms
+20:59:34.877 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:59:35.504 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./data/ymd user=SA
+20:59:35.511 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:59:36.604 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./data/ymd'
+20:59:36.686 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:59:36.722 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/transaction-manager'
+20:59:36.734 [main] INFO  c.z.t.MainApplication - Started MainApplication in 5.894 seconds (process running for 7.027)
+20:59:55.651 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/transaction-manager] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:59:55.651 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+20:59:55.653 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+21:16:59.536 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+21:16:59.576 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+21:16:59.595 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:16:59.607 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
