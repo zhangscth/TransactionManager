@@ -22,6 +22,6 @@ The following guides illustrate how to use apis concretely:
 * mybatis-spring-boot-starter
 
 ### performance testing
-![add api perfermance](.\images\add_metric.png)
-![add api perfermance](.\images\get_all_metric.png)
-![add api perfermance](.\images\modify_metric.png)
+![add api perfermance](./images/add_metric.png)
+![add api perfermance](./images/get_all_metric.png)
+![add api perfermance](./images/modify_metric.png)
